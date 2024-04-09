@@ -1,0 +1,155 @@
+
+    .navbar{
+        
+        background-color: #e8f0f0;
+    }
+    .intro{
+        text-align: center;
+        color: orange;
+        background-color: #590f96;
+    }
+   
+   
+    .navbar-section {
+        text-align: center;
+        background-color: white;
+    }
+   .btn1 {
+    width: 7rem;
+   }
+    .nav-item {
+        padding: 0.5rem;
+    }
+    #Header{
+       color: #67C6E3;
+       background: #ACE2E1;
+    }
+    
+    .intro {
+        
+        padding-bottom: 1rem;
+        padding: 5rem;
+        text-align: start;
+        line-height: 3rem;
+    }
+       
+        .intro1 {
+            font-family: "Nunito Sans", sans-serif;
+            font-optical-sizing: auto;
+            
+            font-style: normal;
+          
+            text-align:start;
+        }
+       .intro3 {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        padding-bottom: 2rem;
+        font-style: normal;
+       }
+        .d-block1 {
+            height: 33rem;
+        }
+       .head {
+        padding: 1.5rem;
+        color: #ce361b;
+       }
+     .detox {
+        padding-right: 7rem;
+     }   
+        
+    .post{
+        display: flex;
+        text-align: center;
+        padding-left: 5.5rem;
+    }
+    .navbar-section {
+        display: flex;
+        padding-left: 9rem;
+    }
+    .nav-item {
+        padding-right: 1rem;
+        text-align: center;
+    }
+    .posts{
+        padding: 3rem;
+    }    
+    .border{
+        display: flex;
+        padding: 2.5rem;
+    }
+    .nav-member{
+       padding: 1.5rem;  
+    }
+.our{
+    margin-left: 38rem;
+    margin-top: 3rem;
+    color: #ce361b;
+}
+
+ .apps{
+    text-align: center;
+    padding: 2rem;
+ }      
+ .card-deck {
+    padding: 1rem;
+ }
+
+.quote {
+    padding: 7% 15%;
+    text-align: center;
+    height: 580px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    line-height: 5rem;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    text-align: center;
+    padding: 1rem;
+   }
+   .carousel-item-quote {
+    height: 370px;
+   }
+   .card-image {
+    padding-top: 3.5rem;
+   }
+  
+   .card-title {
+    margin-left: 6rem;
+    text-align: center;
+   }
+   .card-text {
+    margin-left: 6rem;
+    text-align: center;
+   }
+   .footer-link{
+    color: #162e70;
+    margin:2rem 1rem;
+    font-family: "Exo 2", sans-serif;
+    text-decoration: none;
+}
+   .footer-link:hover{
+    color: #eaf6ea;
+}    
+.copyright{
+    color: #eaf6ea;
+    font-size: 0.85rem;
+    padding: 20px 0px;
+}
+.more-post {
+    padding-top: 3rem;
+}
+
+
+       
+
+
+
+
+       
+
+        

@@ -1,24 +1,81 @@
 #top-header {
     background-color: #EFA8E4;
     padding: 1rem;
-   
 }
+
 .text-intro {
     text-align: center;
     line-height: 4rem;
 }
-    .card-img-top {
-        width: 32%;
-        height: 32%;
-        text-align: center;
-        margin: 2px auto 2rem 10rem;
-    }
-    .card-text {
-        margin-right: 2rem;
-        text-align: center;
-    }
-  
-  
+
+.card-img-top {
+    width: 32%;
+    height: 32%;
+    text-align: center;
+    margin: 2px auto 2rem 10rem;
+}
+
+.card-text {
+    margin-right: 2rem;
+    text-align: center;
+}
+
 .img-intro {
     padding: 3rem;
-}    
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        float: right;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .img-intro {
+        width: 100%;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .card-img-top {
+        width: 80%;
+        height: auto;
+        margin: 1rem auto;
+    }
+
+    .card-deck .card {
+        margin-bottom: 1rem;
+    }
+
+    .card-text {
+        margin: 1rem auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-intro {
+        width: 100%;
+        height: auto;
+        padding: 0.5rem 0;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto;
+        margin: 1rem auto;
+    }
+
+    .card-deck {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .card-text {
+        margin: 0.5rem auto;
+    }
+}

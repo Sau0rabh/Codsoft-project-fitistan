@@ -1,106 +1,93 @@
-
-    .navbar{
-        
-        background-color: #e8f0f0;
-    }
-    .intro{
-        text-align: center;
-        color: orange;
-        background-color: #590f96;
-    }
-   
-   
-    .navbar-section {
-        text-align: center;
-        background-color: white;
-    }
-   .btn1 {
+.navbar{
+    background-color: #e8f0f0;
+}
+.intro{
+    text-align: center;
+    color: orange;
+    background-color: #590f96;
+}
+.navbar-section {
+    text-align: center;
+    background-color: white;
+}
+.btn1 {
     width: 7rem;
-   }
-    .nav-item {
-        padding: 0.5rem;
-    }
-    #Header{
-       color: #67C6E3;
-       background: #ACE2E1;
-    }
-    
-    .intro {
-        
-        padding-bottom: 1rem;
-        padding: 5rem;
-        text-align: start;
-        line-height: 3rem;
-    }
-       
-        .intro1 {
-            font-family: "Nunito Sans", sans-serif;
-            font-optical-sizing: auto;
-            
-            font-style: normal;
-          
-            text-align:start;
-        }
-       .intro3 {
-        font-family: "Inter", sans-serif;
-        font-optical-sizing: auto;
-        padding-bottom: 2rem;
-        font-style: normal;
-       }
-        .d-block1 {
-            height: 33rem;
-        }
-       .head {
-        padding: 1.5rem;
-        color: #ce361b;
-       }
-     .detox {
-        padding-right: 7rem;
-     }   
-        
-    .post{
-        display: flex;
-        text-align: center;
-        padding-left: 5.5rem;
-    }
-    .navbar-section {
-        display: flex;
-        padding-left: 9rem;
-    }
-    .nav-item {
-        padding-right: 1rem;
-        text-align: center;
-    }
-    .posts{
-        padding: 3rem;
-    }    
-    .border{
-        display: flex;
-        padding: 2.5rem;
-    }
-    .nav-member{
-       padding: 1.5rem;  
-    }
+}
+.nav-item {
+    padding: 0.5rem;
+}
+#Header{
+    color: #67C6E3;
+    background: #ACE2E1;
+}
+.intro {
+    padding-bottom: 1rem;
+    padding: 5rem;
+    text-align: start;
+    line-height: 3rem;
+}
+.intro1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align:start;
+}
+.intro3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    padding-bottom: 2rem;
+    font-style: normal;
+}
+.d-block1 {
+    height: 33rem;
+}
+.head {
+    padding: 1.5rem;
+    color: #ce361b;
+}
+.detox {
+    padding-right: 7rem;
+}   
+.post{
+    display: flex;
+    text-align: center;
+    padding-left: 5.5rem;
+}
+.navbar-section {
+    display: flex;
+    padding-left: 9rem;
+}
+.nav-item {
+    padding-right: 1rem;
+    text-align: center;
+}
+.posts{
+    padding: 3rem;
+}    
+.border{
+    display: flex;
+    padding: 2.5rem;
+}
+.nav-member{
+    padding: 1.5rem;  
+}
 .our{
     margin-left: 38rem;
     margin-top: 3rem;
     color: #ce361b;
 }
-
- .apps{
+.apps{
     text-align: center;
     padding: 2rem;
- }      
- .card-deck {
+}      
+.card-deck {
     padding: 1rem;
- }
-
+}
 .quote {
     padding: 7% 15%;
     text-align: center;
     height: 580px;
 }
-
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
@@ -110,29 +97,28 @@ h2 {
     background-color: #66bfbf;
     text-align: center;
     padding: 1rem;
-   }
-   .carousel-item-quote {
+}
+.carousel-item-quote {
     height: 370px;
-   }
-   .card-image {
+}
+.card-image {
     padding-top: 3.5rem;
-   }
-  
-   .card-title {
+}
+.card-title {
     margin-left: 6rem;
     text-align: center;
-   }
-   .card-text {
+}
+.card-text {
     margin-left: 6rem;
     text-align: center;
-   }
-   .footer-link{
+}
+.footer-link{
     color: #162e70;
     margin:2rem 1rem;
     font-family: "Exo 2", sans-serif;
     text-decoration: none;
 }
-   .footer-link:hover{
+.footer-link:hover{
     color: #eaf6ea;
 }    
 .copyright{
@@ -144,12 +130,74 @@ h2 {
     padding-top: 3rem;
 }
 
+/* Media Queries */
+@media (max-width: 1200px) {
+    .our {
+        margin-left: 25rem;
+    }
+    .post {
+        padding-left: 3rem;
+    }
+    .navbar-section {
+        padding-left: 4rem;
+    }
+}
 
-       
+@media (max-width: 992px) {
+    .our {
+        margin-left: 20rem;
+    }
+    .post {
+        padding-left: 2rem;
+    }
+    .navbar-section {
+        flex-direction: column;
+        padding-left: 0;
+    }
+}
 
+@media (max-width: 768px) {
+    .our {
+        margin-left: 10rem;
+    }
+    .post {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .intro {
+        padding: 2rem;
+        text-align: center;
+    }
+    .head {
+        padding: 1rem;
+    }
+    .navbar-section {
+        text-align: center;
+    }
+    .footer-link {
+        display: block;
+        margin: 1rem 0;
+    }
+}
 
-
-
-       
-
-        
+@media (max-width: 576px) {
+    .our {
+        margin-left: 5rem;
+    }
+    .intro {
+        padding: 1rem;
+        text-align: center;
+    }
+    .card-title, .card-text {
+        margin-left: 0;
+        text-align: center;
+    }
+    .quote {
+        padding: 3% 5%;
+        height: auto;
+    }
+    h2 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+}

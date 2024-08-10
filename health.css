@@ -1,9 +1,11 @@
 .health-section {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
+
 .col {
-    padding: 1rem;
+  padding: 1rem;
 }
+
 .btn2 {
   background: #91acbd;
   background-image: -webkit-linear-gradient(top, #91acbd, #2980b9);
@@ -17,7 +19,7 @@
   font-family: Georgia;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -30,6 +32,54 @@
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+
 .btn13 {
-    padding-left: 36rem;
+  padding-left: 36rem;
+}
+
+@media (max-width: 992px) {
+  .navbar-toggler {
+      float: right;
+  }
+
+  .navbar-collapse {
+      text-align: center;
+  }
+
+  .carousel-inner img {
+      height: auto;
+  }
+
+  .btn13 {
+      padding-left: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-inner img {
+      height: auto;
+  }
+
+  .health-section {
+      padding: 1rem;
+  }
+
+  .btn13 {
+      padding-left: 10rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-inner img {
+      height: auto;
+  }
+
+  .health-section {
+      padding: 0.5rem;
+  }
+
+  .btn13 {
+      padding-left: 0;
+      text-align: center;
+  }
 }
